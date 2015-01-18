@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/language.xsd" languagecode="en">
+	<category name="cetos.header.menu">
+		<item name="cetos.header.menu.index"><![CDATA[Home]]></item>
+		<item name="cetos.header.menu.consulting"><![CDATA[Consulting]]></item>
+		<item name="cetos.header.menu.managementconsultig"><![CDATA[Management Consulting]]></item>
+		<item name="cetos.header.menu.businesspage"><![CDATA[Geschäftsprozess-Management]]></item>
+		<item name="cetos.header.menu.managedskill"><![CDATA[Managed Skill Services]]></item>
+		<item name="cetos.header.menu.systems"><![CDATA[Systems]]></item>
+		<item name="cetos.header.menu.softwareengineering"><![CDATA[Software-Engineering]]></item>
+		<item name="cetos.header.menu.digitalemedia"><![CDATA[Digitial Media]]></item>
+		<item name="cetos.header.menu.solutionworkshop"><![CDATA[Solution Workshop]]></item>
+	</category>
+	
+	<category name="cetos.footer.menu">
+		<item name="cetos.footer.menu.privacy"><![CDATA[Impressum]]></item>
+		<item name="cetos.footer.menu.contacts"><![CDATA[Contact Us]]></item>
+	</category>
+
+
+</language>
