@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/pagemenu.xsd">
+	<import>
+		<pagemenuitem name="cetos.header.menu.index">
+			<controller><![CDATA[cetos\page\IndexPage]]></controller>
+			<position>header</position>
+		</pagemenuitem>
+		
+		<!-- Consulting -->
+		<pagemenuitem name="cetos.header.menu.consulting">
+			<controller><![CDATA[cetos\page\ConsultingPage]]></controller>
+			<position>header</position>
+		</pagemenuitem>
+		<pagemenuitem name="cetos.header.menu.managementconsultig">
+			<parent>cetos.header.menu.consulting</parent>
+			<controller><![CDATA[cetos\page\ManagmentConsultingPage]]></controller>
+		</pagemenuitem>		
+		<pagemenuitem name="cetos.header.menu.businesspage">
+			<parent>cetos.header.menu.consulting</parent>
+			<controller><![CDATA[cetos\page\BusinessProzessPage]]></controller>
+		</pagemenuitem>				
+		<pagemenuitem name="cetos.header.menu.managedskill">
+			<parent>cetos.header.menu.consulting</parent>
+			<controller><![CDATA[cetos\page\ManagedSkillPage]]></controller>
+		</pagemenuitem>				
+		
+		<!-- Systems -->
+		<pagemenuitem name="cetos.header.menu.systems">
+			<controller><![CDATA[cetos\page\SystemsPage]]></controller>
+			<position>header</position>
+		</pagemenuitem>
+		<pagemenuitem name="cetos.header.menu.softwareengineering">
+			<parent>cetos.header.menu.systems</parent>
+			<controller><![CDATA[cetos\page\SoftwareEngineeringPage]]></controller>
+		</pagemenuitem>		
+		<pagemenuitem name="cetos.header.menu.digitalmedia">
+			<parent>cetos.header.menu.systems</parent>
+			<controller><![CDATA[cetos\page\DigitalMediaPage]]></controller>
+		</pagemenuitem>				
+		<pagemenuitem name="cetos.header.menu.solutionworkshop">
+			<parent>cetos.header.menu.systems</parent>
+			<controller><![CDATA[cetos\page\SolutionWorkshopPage]]></controller>
+		</pagemenuitem>
+		
+		<!-- Services -->
+		<pagemenuitem name="cetos.header.menu.services">
+			<controller><![CDATA[cetos\page\ServicesPage]]></controller>
+			<position>header</position>
+		</pagemenuitem>
+		<pagemenuitem name="cetos.header.menu.projectmanagment">
+			<parent>cetos.header.menu.services</parent>
+			<controller><![CDATA[cetos\page\ProjectManagmentPage]]></controller>
+		</pagemenuitem>
+		<pagemenuitem name="cetos.header.menu.clientmanagment">
+			<parent>cetos.header.menu.services</parent>
+			<controller><![CDATA[cetos\page\ClientManagmentPage]]></controller>
+		</pagemenuitem>
+		<pagemenuitem name="cetos.header.menu.development">
+			<parent>cetos.header.menu.services</parent>
+			<controller><![CDATA[cetos\page\DevelopmentPage]]></controller>
+		</pagemenuitem>
+		
+		<!-- Products -->
+		<pagemenuitem name="cetos.header.menu.products">
+			<controller><![CDATA[cetos\page\ProductsPage]]></controller>
+			<position>header</position>
+		</pagemenuitem>
+		<pagemenuitem name="cetos.header.menu.dispo">
+			<parent>cetos.header.menu.products</parent>
+			<controller><![CDATA[cetos\page\DisPoPage]]></controller>
+		</pagemenuitem>
+		<pagemenuitem name="cetos.header.menu.epl">
+			<parent>cetos.header.menu.products</parent>
+			<controller><![CDATA[cetos\page\EPLPage]]></controller>
+		</pagemenuitem>
+		<pagemenuitem name="cetos.header.menu.sisdal">
+			<parent>cetos.header.menu.products</parent>
+			<controller><![CDATA[cetos\page\SISDALPage]]></controller>
+		</pagemenuitem>
+		<pagemenuitem name="cetos.header.menu.sopac">
+			<parent>cetos.header.menu.products</parent>
+			<controller><![CDATA[cetos\page\SoPacPage]]></controller>
+		</pagemenuitem>
+		<pagemenuitem name="cetos.header.menu.sosmi">
+			<parent>cetos.header.menu.products</parent>
+			<controller><![CDATA[cetos\page\SoSMIPage]]></controller>
+		</pagemenuitem>
+		
+		<!-- References -->
+		<pagemenuitem name="cetos.header.menu.references">
+			<controller><![CDATA[cetos\page\ReferencesPage]]></controller>
+			<position>header</position>
+		</pagemenuitem>
+		
+		<!-- Jobs -->
+		<pagemenuitem name="cetos.header.menu.jobs">
+			<controller><![CDATA[cetos\page\JobsPage]]></controller>
+			<position>header</position>
+		</pagemenuitem>	
+		<pagemenuitem name="cetos.header.menu.bcbasel">
+			<parent>cetos.header.menu.jobs</parent>
+			<controller><![CDATA[cetos\page\BCBaselPage]]></controller>
+		</pagemenuitem>
+		<pagemenuitem name="cetos.header.menu.cetossystems">
+			<parent>cetos.header.menu.jobs</parent>
+			<controller><![CDATA[cetos\page\CetosSystemsPage]]></controller>
+		</pagemenuitem>
+		<pagemenuitem name="cetos.header.menu.cetosservices">
+			<parent>cetos.header.menu.jobs</parent>
+			<controller><![CDATA[cetos\page\CetosServicesPage]]></controller>
+		</pagemenuitem>
+		
+		<!-- Imprint -->
+		<pagemenuitem name="cetos.header.menu.imprint">
+			<controller><![CDATA[cetos\page\ImprintPage]]></controller>
+			<position>header</position>
+		</pagemenuitem>
+		
+		<!-- Footer -->
+		<pagemenuitem name="cetos.footer.menu.privacy">
+			<controller><![CDATA[app\page\PrivacyPage]]></controller>
+			<position>footer</position>
+		</pagemenuitem>
+		<pagemenuitem name="cetos.footer.menu.contacts">
+			<controller><![CDATA[app\page\ContactsPage]]></controller>
+			<position>footer</position>
+		</pagemenuitem>
+	
+	</import>
+</data>

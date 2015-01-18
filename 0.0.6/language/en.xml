@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/language.xsd" languagecode="en">
+	<category name="cetos.header.menu">
+		<item name="cetos.header.menu.index"><![CDATA[Home]]></item>
+		<item name="cetos.header.menu.consulting"><![CDATA[Consulting]]></item>
+		<item name="cetos.header.menu.managementconsultig"><![CDATA[Management Consulting]]></item>
+		<item name="cetos.header.menu.businesspage"><![CDATA[Geschäftsprozess-Management]]></item>
+		<item name="cetos.header.menu.managedskill"><![CDATA[Managed Skill Services]]></item>
+		<item name="cetos.header.menu.systems"><![CDATA[Systems]]></item>
+		<item name="cetos.header.menu.softwareengineering"><![CDATA[Software-Engineering]]></item>
+		<item name="cetos.header.menu.digitalmedia"><![CDATA[Digitial Media]]></item>
+		<item name="cetos.header.menu.solutionworkshop"><![CDATA[Solution Workshop]]></item>		
+		<item name="cetos.header.menu.services"><![CDATA[Services]]></item>
+		<item name="cetos.header.menu.projectmanagment"><![CDATA[Project-Managment]]></item>
+		<item name="cetos.header.menu.clientmanagment"><![CDATA[Client-Managment]]></item>
+		<item name="cetos.header.menu.development"><![CDATA[Development]]></item>
+		<item name="cetos.header.menu.products"><![CDATA[Products]]></item>
+		<item name="cetos.header.menu.dispo"><![CDATA[DiSPo]]></item>
+		<item name="cetos.header.menu.epl"><![CDATA[Easy Package Launcher]]></item>
+		<item name="cetos.header.menu.sisdal"><![CDATA[SiSDAL]]></item>
+		<item name="cetos.header.menu.sopac"><![CDATA[SoPac]]></item>
+		<item name="cetos.header.menu.sosmi"><![CDATA[SoSMI]]></item>
+		<item name="cetos.header.menu.references"><![CDATA[References]]></item>
+		<item name="cetos.header.menu.jobs"><![CDATA[Jobs]]></item>
+		<item name="cetos.header.menu.bcbasel"><![CDATA[BC Basel Consulting Group]]></item>
+		<item name="cetos.header.menu.cetossystems"><![CDATA[CETOS Sytems]]></item>
+		<item name="cetos.header.menu.cetosservices"><![CDATA[CETOS Services]]></item>
+		<item name="cetos.header.menu.imprint"><![CDATA[Imprint]]></item>
+	</category>
+	
+	<category name="cetos.footer.menu">
+		<item name="cetos.footer.menu.privacy"><![CDATA[Impressum]]></item>
+		<item name="cetos.footer.menu.contacts"><![CDATA[Contact Us]]></item>
+	</category>
+
+
+</language>
